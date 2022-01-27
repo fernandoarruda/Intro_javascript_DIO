@@ -1,7 +1,18 @@
-var a = 3;
-var b = 10;
 
+let count = 0;
 
+const CURRENT_NUMBER = document.getElementById('currentNumber');
 
-console.log("Helo world by arruda!!!");
+function increment() {
+	count++;
+	CURRENT_NUMBER.innerHTML = count;
+}
 
+function decrement() {
+	count--;
+	CURRENT_NUMBER.innerHTML = count;
+}
+
+function test() {
+	kdowkdpo;
+}
